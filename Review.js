@@ -16,9 +16,9 @@ getAllblog().then((blogs) => {
     card.innerHTML = `
       <div class="card-body">
         <h5 class="card-title">Firstname: ${blog.Firstname}</h5>
-        <h5 class="card-title"> Lastname: ${blog.Lastname}</h5>
+        <h5 class="card-title">Lastname: ${blog.Lastname}</h5>
 
-        <h5 class="card-title">Eamilid: ${blog.email}</h5>
+        <h5 class="card-title">Emailid: ${blog.email}</h5>
 
         <h5 class="card-title">CollegeName: ${blog.college}</h5>
         
